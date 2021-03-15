@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Note Taker that can be used to write and save notes. This application uses an Express.js back end and saves and retrieve note data from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JD-Jaramillo/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JD-Jaramillo/note-taker/issues"
+  },
+  "homepage": "https://github.com/JD-Jaramillo/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
