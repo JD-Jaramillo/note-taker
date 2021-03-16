@@ -1,22 +1,19 @@
 # note-taker
-Note Taker that can be used to write and save notes. This application uses an Express.js back end and saves and retrieve note data from a JSON file.
+Note Taker that can be used to write and save notes. This application uses an Express.js back end and saves and retrieve note data from a JSON file. This application has been deployed with Heroku. 
 
 ## Table of Contents
 
 * [Javascript](#JS)
-* [API's](#API's)
 * [Installation](#Installation)
 
 ## JS 
+Created a server.js with the required links to use Express and create a local server, also provided the links to the routes paths that were created. The notes are saved in an array of objects. 
 
 
-## API's 
+Link to deployed note taker: [Deployed site](https://mysterious-harbor-28018.herokuapp.com/)
 
-
-Link to deployed note taker: [Deployed site](https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/)
-
-![image of notes taker home](images/.png)
-![image of notes](images/.png)
+![image of notes taker home](public/images/main_page.png)
+![image of notes](public/images/notes.png)
 
 ## Requirements 
 
@@ -38,7 +35,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 There is no need to install anything, to use the note taker simply follow the link below. 
 
-See deployed site here: [Deployed Site]();
+See deployed site here: [Deployed Site](https://mysterious-harbor-28018.herokuapp.com/);
 
 
 See repository here: [GitHub Repo](https://github.com/JD-Jaramillo/note-taker)
