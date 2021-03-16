@@ -15,8 +15,8 @@ Note Taker that can be used to write and save notes. This application uses an Ex
 
 Link to deployed note taker: [Deployed site](https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/)
 
-![image of recipe suggestions](images/.png)
-![image of cocktail suggestions](images/.png)
+![image of notes taker home](images/.png)
+![image of notes](images/.png)
 
 ## Requirements 
 
