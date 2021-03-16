@@ -7,23 +7,16 @@ module.exports = (app) => {
         notesData.push(req.body)
         res.json(true);
     })
-
+    // Attempte to be able to select note when clicked on 
     app.get('api/notes/:id', (req, res) => {
-        const { id } = req.params;
+        const id = req.params.id;
         notesData.find(id);
         res.json(notesData);
     })
-
-    app.delete('/api/notes:id', (req, res) => {
-        notesData.remove({
-            id: require.params
-        }),
-            function (err, user) {
-                if (err) {
-                    return res.send(err);
-                }
-            }
-        res.json({ message: 'deleted' });
+    // Deletes the note
+    app.delete('/api/notes/:id', (req, res) => {
+        const id = (value) => value.id === req.params.id;
+        notesData.splice(notesData.findIndex(id), 1);
+        res.json(notesData);
     })
-
-}
+};
